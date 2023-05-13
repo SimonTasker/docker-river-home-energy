@@ -7,3 +7,4 @@ RUN curl https://sh.rustup.rs -sSf | bash -s -- -y \
     && pip install river==0.15.0
 RUN pip install paho-mqtt
 RUN pip install grpcio
+RUN pip install influxdb-client
